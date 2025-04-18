@@ -61,7 +61,7 @@ public class BodySize extends AppCompatActivity {
                     || enteredtext11Value.isEmpty() || textView.getText().toString().isEmpty()) {
                 Toast.makeText(this, "모든 데이터를 입력해주세요", Toast.LENGTH_SHORT).show();
             } else {
-                hyperlink.setText("https://ipfs.io/ipfs/QmahYK8ngx9e4ahpdm2U5bysgvD8jK8N2MsTe1eWJvy4vT");
+                hyperlink.setText([ipfs 주소 입력란]);
             }
         });
 
